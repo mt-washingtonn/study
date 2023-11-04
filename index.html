@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Flash</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_logo">
+            <a href="#">
+                <img src="img\logo.svg" alt="">
+            </a>
+        </div>
+        <div class="hello">
+            <h1><a href="#">LET'S GO</a></h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">BUY</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="item1">
+            <h3>CLASSIC</h3>
+            <a href="#" id="it1" onclick="blya"><img src="img\ru_flash-up-can.png" alt=""></a>
+
+
+        </div>
+        <div class="item2">
+            <h3>LIME</h3>
+            <a href="#" id="it2"><img src="img\ru_flash-up-can.png" alt=""></a>
+
+        </div>
+        <div class="item3">
+            <h3>ULTRA</h3>
+            <a href="#" id="it3"><img src="img\ru_flash-up-can.png" alt=""></a>
+        </div>
+    </div>
+    <div class="opisanie">
+        <p id="lol">Energy drink with lime</p>
+        <img src="C:\Users\bun\Desktop\study\img\ru_flash-up-can.png" alt="">
+    </div>
+    <div class="opisanie1">
+        <p id="lol">Energy drink with ultra baf coffein</p>
+        <img src="C:\Users\bun\Desktop\study\img\ru_flash-up-can.png" alt="">
+    </div>
+    <div class="opisanie2">
+        <p id="lol">Classic energy drink</p>
+        <img src="C:\Users\bun\Desktop\study\img\ru_flash-up-can.png" alt="">
+    </div>
+
+    <div class="footer">
+
+        <div class="content">
+        <h2 class="title"> Pre-order Now </h2>
+            <p></p>
+            <div class="form"><form action="_адрес для отправки_" method= "GET" name="my_form">
+             
+           <label><span class="fio"> Name:</span> <br />
+              <input type="search"class="guest"/></label> <p></p>
+              <label><span class="email"> E-mail:</span><br />
+              <input type="email"class="guest"/></label><p></p>
+              <label><span class="phone"> Phone number:</span><br />
+              <input type="search"class="guest"/></label><p></p>
+              <span class="goods">Product:</span><br />
+              <select name="goods"class="guest"> 
+                <option value="Товар 1">Flash Classic</option> 
+                 <option value="Товар 2">Flash Lime</option>
+                 <option value="Товар 2">Flash Ultra</option>
+              </select><p></p>
+              <label><span class="number"> Sum:</span><br />
+              <input type="search" class="guest"/></label><p></p>
+              <label><span class="date"> Delivery date:</span><br />
+              <input type="date"class="guest"/></label><p></p>
+            <div class="bottom">
+            <input type="submit" class="bottom1" value="Отправить"/>
+            <input type="submit" class="bottom2" value="Очистить"/></div>
+              </div>
+              </div>
+    </div>
+</body>
+<script>
+    function blya(){
+        let element = document.getElementById("lol");
+        let EnerType1 = document.getElementById("it1");
+        let EnerType2 = document.getElementById("it2");
+        let EnerType3 = document.getElementById("it3");
+
+        if(EnerType1.onclick = "it1"){
+            element = ("Классический напиток!")
+        }
+    }
+
+
+</script>
+</html>
